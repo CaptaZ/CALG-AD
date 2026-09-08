@@ -73,6 +73,17 @@ python CALG-AD.py \
 
 The checkpoint is saved to `saved_results/<save_name>/model.pth`.
 
+## Checkpoints
+
+Download the trained checkpoints from [Google Drive](https://drive.google.com/drive/folders/1lKXnSt2coi5rlF7bx4VFDzVfoiLL9Tb_?usp=sharing).
+
+Extract the downloaded archive and place the required checkpoint at
+`saved_results/<save_name>/model.pth`.
+
+Use the matching `--save_name` when running evaluation, and ensure
+that the dataset path, dataset loader, and category list match
+the checkpoint.
+
 ## Evaluation
 
 Evaluate a trained checkpoint with:
